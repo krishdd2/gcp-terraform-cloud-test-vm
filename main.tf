@@ -1,8 +1,8 @@
 provider "google" {
   version = "3.82.0"
+  credentials = var.gcp_creds
   project     = "kk-project-376920"
   region      = "us-west1"
-  credentials = var.gcp_creds
 }  
 
 variable "gcp_creds" {
