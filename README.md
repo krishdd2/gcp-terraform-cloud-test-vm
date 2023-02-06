@@ -2,6 +2,7 @@
 # How-to set up Google Cloud (GCP) credentials in Terraform Cloud
 
 1. As Terraform Variable
+```
 provider "google" {
   project     = "<YOUR PROJECT>"
   region  = "<YOUR REGION>"
@@ -13,10 +14,13 @@ provider "google" {
 variable "gcp-creds" {
 default= ""
 }
+```
   
 2. Add key in tf cloud as env variable 
    to get key out put without any tabs/spaces
+  ```
  cat kk-tf-account.json | jq -c
+ ```
 
 
 
