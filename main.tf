@@ -3,7 +3,8 @@ provider "google" {
   project     = "kk-project-376920"
   region      = "us-west1"
   credentials = var.gcp_creds
-  
+}  
+
 variable "gcp_creds" {
   default= ""
 }
