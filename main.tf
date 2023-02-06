@@ -6,7 +6,7 @@ provider "google" {
   #zone        = "us-west1"
   
 variable "gcp_creds" {
-  default= ""
+ # default= ""
 }
 
 }
